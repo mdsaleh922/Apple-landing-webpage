@@ -63,6 +63,7 @@ video {
     width: 70%;
     margin-left: 15%;
     border-radius: 20px;
+    box-shadow: 2px 2px 3px 3px rgb(54, 54, 54);
 }
 
 video:hover .video {
