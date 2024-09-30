@@ -74,6 +74,20 @@ hr {
     width: 100%;
 }
 
+.new-haeding, .new-tag{
+    background-color: lightgreen;
+    color: black;
+    text-align: center;
+    width: 50px;
+    margin-left: 35px;
+    border-radius: 5px;
+    
+}
+.new-haeding, .new-tag:hover{
+    background-color: white;
+    transform: scale(1.05);
+}
+
 .card img {
     width: 250px;
     margin-left: auto;
