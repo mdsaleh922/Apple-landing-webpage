@@ -75,19 +75,23 @@ hr {
 }
 
 .new-haeding, .new-tag{
-    background-color: lightgreen;
+    background-color: #2EB2D3;
     color: black;
     text-align: center;
     width: 50px;
     margin-left: 35px;
     border-radius: 5px;
+    box-shadow: 1px 1px 10px #2EB2D3;
     
 }
 .new-haeding, .new-tag:hover{
     background-color: white;
     transform: scale(1.05);
+    box-shadow: 1px 1px 10px white;
 }
-
+p{
+    font-size: 18px;
+}
 .card img {
     width: 250px;
     margin-left: auto;
@@ -111,13 +115,15 @@ hr {
     width: 80px;
     border-radius: 20px;
     border: none;
-    background-color: rgb(87, 198, 87);
+    background-color: #2EB2D3;
+    box-shadow: 1px 1px 20px #2EB2D3;
 }
 
 #btn:hover {
     background-color: black;
     color: white;
     transform: scale(1.1);
+    box-shadow: 1px 1px 20px black;
 
 }
 
@@ -135,18 +141,35 @@ hr {
 #design-img{
     text-align: center;
 }
+#all-icons{
+    box-shadow: 1px 1px 20px white;
+}
+#icons a{
+    box-shadow: 1px 1px 10px #2EB2D3;
+}
+#icons a:hover{
+    box-shadow: 1px 1px 10px white;
+    transform: scaleY(1.1);
+}
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 344px){
     .carousel-inner img{
-        height: 330px;
-        margin-top: 35px;
+        height: 350px !important;
+        margin-top: 45px;
+    }
+}
+
+@media only screen and (max-width: 412px){
+    .carousel-inner img{
+        height: 300px !important;
+        margin-top: 45px;
     }
 }
 
 @media only screen and (max-width: 430px){
     .carousel-inner img{
-        height: 380px;
-        margin-top: 35px;
+        height: 350px !important;
+        margin-top: 45px;
     }
     .highlights h1{
         font-weight: 530;
@@ -160,30 +183,26 @@ hr {
 }
 @media only screen and (max-width: 768px){
     .carousel-inner img{
-        height: 380px;
-        margin-top: 35px;
+        height: 450px;
+        margin-top: 45px;
     }
-
 }
 @media only screen and (max-width: 820px){
     .carousel-inner img{
-        height: 430px;
-        margin-top: 35px;
+        height: 470px;
+        margin-top: 45px;
     }
-
 }
 @media only screen and (max-width: 1024px){
     .carousel-inner img{
         height: 480px;
-        margin-top: 35px;
+        margin-top: 45px;
     }
-
 }
 @media only screen and (max-width: 1280px){
     .carousel-inner img{
         height: 550px;
-        margin-top: 35px;
+        margin-top: 45px;
     }
-
 }
 
